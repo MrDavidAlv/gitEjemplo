@@ -24,5 +24,22 @@ Para quitar un documento del commit
 Para quitar todos los documentos del commit 
     ```bash
         git reset .
-### otro suptitulo
 
+Para realizar un commit en la historia del repositorio
+    ```bash
+        git commit -m "mensaje del commit"
+
+
+Para bajar cambios de github a git en local
+    ```bash
+        git pull
+
+## Ramas en git
+
+Para crear una rama usamos
+    ```bash
+        git branch <nombreRama>
+
+Para ccambiarnos de rama
+    ```bash
+        git checkout <nombreRamaALaQueNosPasamos>
